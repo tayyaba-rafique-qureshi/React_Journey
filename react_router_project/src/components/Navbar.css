@@ -1,0 +1,11 @@
+ul{
+    list-style:none;
+    display:flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    background-color: rgb(125, 219, 219);
+}
+
+.active-link{
+    border: 2px solid blueviolet;
+}
