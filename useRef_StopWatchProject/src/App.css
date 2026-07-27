@@ -1,0 +1,33 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: #0f0f0f;
+  color: white;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 { font-size: 2.5rem; margin-bottom: 24px; }
+
+button {
+  background: #1a1a1a;
+  color: white;
+  border: 1px solid #333;
+  padding: 10px 24px;
+  margin: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover { border-color: #FFB3DE; color: #FFB3DE; }
+
+.Buttons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
